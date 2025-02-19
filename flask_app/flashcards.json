@@ -1,0 +1,1302 @@
+{
+    "deep_resume_analyst.pdf": [
+        {
+            "type": "Q&A",
+            "content": "What programming languages and tools were used for the MedInsight: Flu Tracking Tool project?",
+            "answer": "PostgreSQL, Tableau, Synthea, and Python are not all used in MedInsight, but rather PostgreSQL, Tableau, and Synthea.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The MedInsight project analyzed less than 1 million patient records.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The Restaurant Launch Optimization project used _______ for sentiment analysis, topic modeling, and dynamic visualizations.",
+            "answer": "Python and Tableau",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What was the outcome of the Restaurant Launch Optimization project?",
+            "answer": "B) Increased projected revenue by 10%",
+            "options": [
+                "A) Decreased projected revenue by 5%",
+                "B) Increased projected revenue by 10%",
+                "C) No change in projected revenue",
+                "D) Decreased projected revenue by 10%"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "How many Yelp reviews were analyzed for competitor analysis in the Restaurant Launch Optimization project?",
+            "answer": "10,000",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The MedInsight project used Python as a primary programming language.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The MedInsight project tracked _______ distribution to aid data-driven vaccination strategies.",
+            "answer": "flu shot",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What tools were used for the MedInsight: Flu Tracking Tool project?",
+            "answer": "B) PostgreSQL, Tableau, Synthea",
+            "options": [
+                "A) Python, Pandas, MS Excel, NLP",
+                "B) PostgreSQL, Tableau, Synthea",
+                "C) Java, C++, JavaScript",
+                "D) R, MATLAB, Scala"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What machine learning models were used to boost accuracy by 8% and improve system reliability?",
+            "answer": "XGBoost and Random Forest",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The Claims NPS process A/B tests resulted in a reduction of client churn by 10 accounts in 2 months.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The ETL pipeline for automating Claims dashboards was built using _______ , _______ , _______ , and _______ .",
+            "answer": "AWS S3, Glue, Athena, Quicksight",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What was the outcome of implementing K-Means Clustering for investor targeting?",
+            "answer": "B) Identification of 150+ high-potential investors",
+            "options": [
+                "A) Identification of 50 high-potential investors",
+                "B) Identification of 150+ high-potential investors",
+                "C) Reduction of investor targeting time by 30%",
+                "D) Improvement of data accuracy by 10%"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "How much time was saved per week by automating funding performance tracking?",
+            "answer": "10+ hours",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The development of data consolidation workflows for M&A projects reduced the turnaround time from 5 days to 1 day.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The Aggregated Data Sheet was constructed by analyzing _______ data points using MySQL and Excel.",
+            "answer": "500K+",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What was the result of using SQL and Python for data cleaning and organizing 50+ files?",
+            "answer": "B) Boosted data processing efficiency by 30% and accuracy by 25%",
+            "options": [
+                "A) Boosted data processing efficiency by 10% and accuracy by 15%",
+                "B) Boosted data processing efficiency by 30% and accuracy by 25%",
+                "C) Boosted data processing efficiency by 20% and accuracy by 30%",
+                "D) Boosted data processing efficiency by 40% and accuracy by 20%"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is Deep Suchak's current degree pursuit and the institution he is attending?",
+            "answer": "Masters in Data Science at Worcester Polytechnic Institute",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Deep Suchak has a GPA of 4.0 in his Masters in Data Science.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Deep Suchak's technical proficiency includes programming languages such as _______________________, Pytorch, and Pandas.",
+            "answer": "Python",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What was the outcome of the K-Prototypes based customer segmentation system developed by Deep Suchak?",
+            "answer": "C) It achieved a silhouette score of 0.85 and boosted targeted product engagement by 15%",
+            "options": [
+                "A) It decreased targeted product engagement by 10%",
+                "B) It achieved a silhouette score of 0.6 and boosted targeted product engagement by 5%",
+                "C) It achieved a silhouette score of 0.85 and boosted targeted product engagement by 15%",
+                "D) It had no impact on targeted product engagement"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What was the result of using Power BI dashboards designed by Deep Suchak to analyze customer segments?",
+            "answer": "It improved financial predictability by 25%",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Deep Suchak re-engineered the existing Insurance Premium Rate predictor from Python to MS Excel.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Deep Suchak's experience includes working as a Data Analyst Intern at _______________________, where he developed a K-Prototypes based customer segmentation system.",
+            "answer": "Hanover Insurance",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What was the size of the high-dimensional datasets engineered by Deep Suchak using Python?",
+            "answer": "B) 5M+ records, 1000+ features",
+            "options": [
+                "A) 1M+ records, 100+ features",
+                "B) 5M+ records, 1000+ features",
+                "C) 10M+ records, 500+ features",
+                "D) 50M+ records, 5000+ features"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What was the outcome of Deep Suchak's work in reducing claim payout discrepancies and improving premium accuracy?",
+            "answer": "It improved premium accuracy for 10K+ policyholders",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Deep Suchak has experience working with database management systems such as MySQL and PostgreSQL.",
+            "answer": "True",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Deep Suchak's skills include _______________________, which involves Exploratory Data Analysis (EDA) and Descriptive Statistics.",
+            "answer": "Data Exploration and Reporting",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What was the improvement in financial predictability achieved by Deep Suchak's work in designing Power BI dashboards?",
+            "answer": "D) 25%",
+            "options": [
+                "A) 10%",
+                "B) 15%",
+                "C) 20%",
+                "D) 25%"
+            ]
+        }
+    ],
+    "notesClass1 after class.pdf": [
+        {
+            "type": "Q&A",
+            "content": "What is the primary way to gain experience solving interesting problems in the course?",
+            "answer": "Doing the case-studies",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The midterm and final exams are cumulative.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The case studies are to be done in teams of _______.",
+            "answer": "1-3",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "How many sheets of paper can you bring to the exams?",
+            "answer": "C) Up to four 8 \u00bd by 11 sheets of paper",
+            "options": [
+                "A) 1 sheet of paper",
+                "B) 2 sheets of paper",
+                "C) Up to four 8 \u00bd by 11 sheets of paper",
+                "D) Unlimited sheets of paper"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the basis for grading the case studies?",
+            "answer": "The quality and completeness of presentations and the submitted reports.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The instructor reserves the right to curve the final grades.",
+            "answer": "True",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The instructor reserves the right to make changes to the syllabus, assignments, etc. with _______ notice.",
+            "answer": "ample",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What can result in up to 5% bonus points?",
+            "answer": "C) Any of the following: attendance and class participation, improvements to case studies, suggestions for additional course topics, and other items at the discretion of the instructor",
+            "options": [
+                "A) Only attendance and class participation",
+                "B) Improvements to case studies and suggestions for additional course topics",
+                "C) Any of the following: attendance and class participation, improvements to case studies, suggestions for additional course topics, and other items at the discretion of the instructor",
+                "D) None of the above"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "When can bonus points no longer be given?",
+            "answer": "After the final exam",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Collaboration is allowed during the exams.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The exams will be _______ note.",
+            "answer": "open",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the collaboration policy for the case studies?",
+            "answer": "B) Teams of 1-3, see the syllabus for details",
+            "options": [
+                "A) Teams of 1-5",
+                "B) Teams of 1-3, see the syllabus for details",
+                "C) No collaboration allowed",
+                "D) Teams of 4-6"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the most important part of the learning experience in the class?",
+            "answer": "The case studies",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "True or False: The instructor believes that there are dumb questions in class.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "To get the most out of the class, students should _______________________ to class and ask questions during discussions.",
+            "answer": "come",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What will the instructor post on canvas.wpi.edu after each class?",
+            "answer": "C) Annotated PDFs of slides, videos, etc.",
+            "options": [
+                "A) Only videos of lectures",
+                "B) Only PDFs of slides",
+                "C) Annotated PDFs of slides, videos, etc.",
+                "D) Nothing"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "Why should students ask questions in class?",
+            "answer": "Because any question asked will help classmates as much as the student asking.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "True or False: The instructor will not provide any resources or materials on canvas.wpi.edu.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The instructor suggests that students get accounts on _______________________.",
+            "answer": "GitHub",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the purpose of the case studies in the class?",
+            "answer": "C) To get students' hands dirty and provide a hands-on learning experience",
+            "options": [
+                "A) To provide extra credit",
+                "B) To introduce new topics",
+                "C) To get students' hands dirty and provide a hands-on learning experience",
+                "D) To replace lectures"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the instructor's approach to questions in class?",
+            "answer": "The instructor believes there are no dumb questions and encourages students to ask questions.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "True or False: The class will not cover any practical or hands-on experiences.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The instructor recommends that students visit _______________________ for free resources.",
+            "answer": "GitHub Education",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the benefit of asking questions in class, according to the instructor?",
+            "answer": "C) It will help the student asking the question and their classmates",
+            "options": [
+                "A) It will only help the student asking the question",
+                "B) It will help the instructor understand the material better",
+                "C) It will help the student asking the question and their classmates",
+                "D) It will distract the class"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the main focus of the DS/CS553 course?",
+            "answer": "The main focus of the DS/CS553 course is Machine Learning Development and Operations (MLOps).",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The DS/CS553 course is held on Tuesdays and Thursdays.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The course DS/CS553 will cover the development, debugging, deployment, and subsequent _______________________ phases of models in end-to-end pipelines core to machine learning systems.",
+            "answer": "monitoring",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the name of the professor teaching the DS/CS553 course?",
+            "answer": "B) Prof. Randy Paffenroth",
+            "options": [
+                "A) Prof. John Smith",
+                "B) Prof. Randy Paffenroth",
+                "C) Prof. Jane Doe",
+                "D) Prof. Bob Johnson"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the course number for the Machine Learning Development and Operations (MLOps) course?",
+            "answer": "DS/CS553",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The course DS/CS553 teaches students the computational skills required in the fields of Art and Music.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The course DS/CS553 will cover programming languages commonly used in AI and Data Science, such as _______________________.",
+            "answer": "Python",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the time of the DS/CS553 course on Mondays and Wednesdays?",
+            "answer": "C) 3pm-4:20pm",
+            "options": [
+                "A) 1pm-2:20pm",
+                "B) 2pm-3:20pm",
+                "C) 3pm-4:20pm",
+                "D) 4pm-5:20pm"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the location of Prof. Randy Paffenroth's office?",
+            "answer": "UH 364",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The course DS/CS553 is a 2-credit course.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The student will engage in hands-on projects to practice their programming skills to solve real-world _______________________ and Data Science problems.",
+            "answer": "AI",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the day and time of Prof. Randy Paffenroth's office hours?",
+            "answer": "B) Mondays and Wednesdays 4:30pm-5:30pm",
+            "options": [
+                "A) Mondays and Wednesdays 3pm-4pm",
+                "B) Mondays and Wednesdays 4:30pm-5:30pm",
+                "C) Tuesdays and Thursdays 2pm-3pm",
+                "D) Fridays 1pm-2pm"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the penalty for taking a late exam?",
+            "answer": "30% penalty, with a maximum possible grade of 70%",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "True or False: More than one case study can be submitted up to one week late for full credit.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "If a student needs to take an exam early due to a conflict, they should notify the instructor at least _______ weeks before the exam date.",
+            "answer": "two",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the latest time a case study can be submitted to receive any credit?",
+            "answer": "B) Before the last class of the semester",
+            "options": [
+                "A) At the beginning of the last class of the semester",
+                "B) Before the last class of the semester",
+                "C) During the last class of the semester",
+                "D) After the last class of the semester"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What should students do if they have a foreseeable conflict with a case-study due date or exam due to a religious holiday?",
+            "answer": "Contact the instructor within the first two weeks of the first class meeting to discuss and make fair and reasonable adjustments to the schedule and/or tasks.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "True or False: The instructor will not make any effort to accommodate students with personal emergencies.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "In the event of a medical or family emergency, students should contact _______ to find appropriate accommodation.",
+            "answer": "Prof. Paffenroth",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the penalty for submitting a case study more than one week late?",
+            "answer": "B) 20% penalty",
+            "options": [
+                "A) 10% penalty",
+                "B) 20% penalty",
+                "C) 30% penalty",
+                "D) 40% penalty"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "Where can students find the course syllabus and other relevant information?",
+            "answer": "canvas.wpi.edu",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "True or False: The instructor is committed to providing equivalent educational opportunities to students of all belief systems.",
+            "answer": "True",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Students can submit one case study up to _______ week late for full credit.",
+            "answer": "one",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the maximum possible grade for a late exam?",
+            "answer": "B) 70%",
+            "options": [
+                "A) 50%",
+                "B) 70%",
+                "C) 80%",
+                "D) 90%"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What should students do if they have any doubts about what is allowed or not allowed in the course?",
+            "answer": "Ask Prof. Paffenroth",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The classroom is only inclusive to individuals of specific backgrounds and beliefs.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Students with approved academic accommodations should submit their accommodation letters through the _______________________.",
+            "answer": "Office of Accessibility Services Student Portal",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "How can students who are not currently registered with the Office of Accessibility Services find out more information about requesting accommodations?",
+            "answer": "B) By contacting the Office of Accessibility Services via email, phone, or in-person",
+            "options": [
+                "A) By contacting Prof. Paffenroth directly",
+                "B) By contacting the Office of Accessibility Services via email, phone, or in-person",
+                "C) By submitting a request through the course website",
+                "D) By attending a meeting with the Morgan Teaching Center"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What kind of environment is expected to be maintained by all members of the class?",
+            "answer": "A respectful, welcoming, and inclusive environment",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Students are required to inform Prof. Paffenroth about their pronoun(s) and/or preferred name at the beginning of the course.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Students who would like to request accommodations should contact the Office of Accessibility Services at _______________________ or by phone at _______________________.",
+            "answer": "AccessibilityServices@wpi.edu, (508) 831-4908",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the location of the Office of Accessibility Services?",
+            "answer": "B) 5th floor of Unity Hall",
+            "options": [
+                "A) 1st floor of Unity Hall",
+                "B) 5th floor of Unity Hall",
+                "C) Morgan Teaching Center",
+                "D) Prof. Paffenroth's office"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What should students do if they have questions about how accommodations can be implemented in the course?",
+            "answer": "Contact Prof. Paffenroth as soon as possible",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The course has a make-up exam policy.",
+            "answer": "True",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The classroom is a place where students will be treated with _______________________.",
+            "answer": "respect",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the best way for students to ensure they are addressed properly by Prof. Paffenroth?",
+            "answer": "B) By telling Prof. Paffenroth their pronoun(s) and/or preferred name at any time",
+            "options": [
+                "A) By introducing themselves on the first day of class",
+                "B) By telling Prof. Paffenroth their pronoun(s) and/or preferred name at any time",
+                "C) By submitting a request through the course website",
+                "D) By contacting the Office of Accessibility Services"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the primary expectation for students regarding WPI's Academic Honesty policies?",
+            "answer": "Each student is expected to familiarize him/herself with WPI\u2019s Academic Honesty policies.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Collaboration is allowed on exams.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Collaboration is encouraged on _______________________, and students can select their own teams of 1-3 for these assignments.",
+            "answer": "case studies",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is considered a violation of the collaboration policy?",
+            "answer": "B) Two different case study teams sharing a solution to any assigned problem.",
+            "options": [
+                "A) Students within a team sharing solutions and code for a problem.",
+                "B) Two different case study teams sharing a solution to any assigned problem.",
+                "C) Discussing an assignment at the level of goals with students from different teams.",
+                "D) Working individually on all assignments."
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "Where can students find further information on WPI's Academic Honesty policies?",
+            "answer": "https://www.wpi.edu/about/policies/academic-integrity",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Sharing code or plots between case study teams is allowed.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Any acts of _______________________, plagiarism, cheating, and facilitation will be prosecuted according to the university\u2019s policy.",
+            "answer": "fabrication",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What should students do if they are unsure about whether their intended actions are considered academically honest?",
+            "answer": "B) Contact their instructor in advance.",
+            "options": [
+                "A) Ignore the policy and proceed with their actions.",
+                "B) Contact their instructor in advance.",
+                "C) Discuss the issue with their peers.",
+                "D) Report themselves for academic dishonesty."
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the consequence for violating the collaboration policy?",
+            "answer": "All violations of the collaboration policy will be handled in accordance with the WPI Academic Honesty Policy.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Students from different teams can discuss an assignment at the level of goals.",
+            "answer": "True",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Each team is responsible for generating ________________________ and writing up results on their own from scratch for case studies.",
+            "answer": "solutions",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is an example of an action that would not be a violation of the collaboration policy?",
+            "answer": "C) Students from different teams discussing an assignment at the level of goals.",
+            "options": [
+                "A) Sharing a solution to an assigned problem between two different case study teams.",
+                "B) Allowing another case study team to copy any part of a solution to an assigned problem.",
+                "C) Students from different teams discussing an assignment at the level of goals.",
+                "D) Sharing code or plots between case study teams."
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the primary focus of the course in terms of hands-on activities?",
+            "answer": "The primary focus is on hands-on projects and case studies, including developing models using shell scripts, Python, and other system tools in a Linux environment.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The course is intended to be a programming course where code will be graded.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The course will utilize ____________________ as the primary programming language.",
+            "answer": "Python",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the recommended way to approach learning Python for the course?",
+            "answer": "B) Use a combination of textbooks and online resources",
+            "options": [
+                "A) Rely solely on YouTube videos",
+                "B) Use a combination of textbooks and online resources",
+                "C) Focus only on Python for Data Analysis by Wes McKinney",
+                "D) Ignore external resources and only use course materials"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "Where can students find electronic versions of the recommended background books for the class?",
+            "answer": "The WPI library",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The midterm and final exams will be cumulative and closed note.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Students are allowed to bring in up to ____________________ 8 \u00bd by 11 sheets of paper for each exam.",
+            "answer": "four",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the primary criterion for grading exams in the course?",
+            "answer": "B) Demonstrated understanding of key concepts",
+            "options": [
+                "A) Collaboration with peers",
+                "B) Demonstrated understanding of key concepts",
+                "C) Quantity of notes brought to the exam",
+                "D) Speed of completion"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "How will the base lecture notes be made available to students?",
+            "answer": "The base lecture notes will be posted on the class web page before or after class, along with any annotations made during class.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The course has a single textbook that will be covered in detail.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The course will include ____________________ and in-class discussions as important activities.",
+            "answer": "lectures",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What resource is available for students to learn Python, aside from textbooks?",
+            "answer": "C) Numerous YouTube videos, but with caution",
+            "options": [
+                "A) Only Stack Overflow",
+                "B) Only YouTube videos",
+                "C) Numerous YouTube videos, but with caution",
+                "D) No external resources"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is DevOps?",
+            "answer": "DevOps is a paradigm that aims to deploy and maintain software reliably and efficiently, combining development and operations.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "MLOps is easier to implement than DevOps for deterministic software.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "MLOps involves deploying and maintaining _______ models in production reliably and efficiently.",
+            "answer": "machine learning",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is a key aspect of MLOps beyond just ML model codes?",
+            "answer": "B) Training and validation datasets",
+            "options": [
+                "A) Software development",
+                "B) Training and validation datasets",
+                "C) Data analysis",
+                "D) Network security"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the primary goal of MLOps?",
+            "answer": "To deploy and maintain machine learning models in production reliably and efficiently.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "MLOps is a compound of \"machine learning\" and the continuous delivery practice of DevOps.",
+            "answer": "True",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "MLOps is practiced between _______ to transition the algorithm to production systems.",
+            "answer": "Data Scientists, DevOps, and Machine Learning engineers",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is required to take a class on MLOps?",
+            "answer": "B) Prior knowledge of machine learning and deep learning",
+            "options": [
+                "A) Basic knowledge of programming",
+                "B) Prior knowledge of machine learning and deep learning",
+                "C) Experience with data analysis",
+                "D) Familiarity with network security"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the relationship between MLOps and DevOps?",
+            "answer": "MLOps is DevOps for ML-infused software, applying the same principles to machine learning models.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The class on MLOps will remain the same next year as it is this year.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "MLOps involves considering _______ such as hyperparameters and training configs.",
+            "answer": "factors",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is a key challenge in implementing MLOps?",
+            "answer": "D) All of the above",
+            "options": [
+                "A) Integrating with existing software systems",
+                "B) Managing large datasets",
+                "C) Ensuring model interpretability",
+                "D) All of the above"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the best way to contact the instructor during business hours?",
+            "answer": "WPI email: rcpaffenroth@wpi.edu or Zoom room: https://wpi.zoom.us/my/rcpaffenroth",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The instructor is available to answer email questions 24/7.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The instructor has a Ph.D. in _______________________ from the University of Maryland.",
+            "answer": "applied mathematics",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the instructor's focus of study in their Ph.D.?",
+            "answer": "B) Bifurcation analysis",
+            "options": [
+                "A) Machine Learning",
+                "B) Bifurcation analysis",
+                "C) Computer Science",
+                "D) Mathematics"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the instructor's current area of work at WPI?",
+            "answer": "The theory of machine learning",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The instructor worked at the California Institute of Technology.",
+            "answer": "True",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The instructor rewrote a software package from _______________________ to C.",
+            "answer": "Fortran",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the name of the cluster that the instructor is a heavy user of?",
+            "answer": "B) Turing cluster",
+            "options": [
+                "A) Beowulf cluster",
+                "B) Turing cluster",
+                "C) Caltech cluster",
+                "D) WPI cluster"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What are the office hours of Simeon Krastev?",
+            "answer": "Tuesdays 4pm-5pm and Wednesdays 11am-Noon",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "MLOps is a type of DevOps applied to Machine Learning.",
+            "answer": "True",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "MLOps is a type of _______________________ applied to Machine Learning.",
+            "answer": "DevOps",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the location of Yang Wu's office hours?",
+            "answer": "B) UH341",
+            "options": [
+                "A) UH340",
+                "B) UH341",
+                "C) UH342",
+                "D) UH343"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the main focus of the course?",
+            "answer": "The main focus of the course is on the development, debugging, deployment, and subsequent monitoring phases of machine learning models in end-to-end pipelines.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The course covers only technical aspects of machine learning.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The course will cover key topics including a primer on _______________________, the \"Data pipeline, and the Machine Learning Lifecycle.",
+            "answer": "Machine Learning",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What programming language will be used in the course?",
+            "answer": "B) Python",
+            "options": [
+                "A) Java",
+                "B) Python",
+                "C) C++",
+                "D) Ruby"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What are some examples of packages and systems that can be leveraged in the class?",
+            "answer": "PyTorch, Cloud providers such as Azure, AWS, or GCP, HuggingFace, Prometheus, Github, Docker, etc.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Students will only learn about machine learning model development.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The course will also cover professional skills such as _______________________, presentation, and presentation is not the second one, the second one is actually _______________________.",
+            "answer": "communication, teamwork is not correct, the correct answer is presentation is not the second one, the correct order is:  communication, presentation, and the correct fill in the blank is:  the second one is actually \"presentation\" is not correct, the correct answer is the first blank is communication and the second blank is:  and the correct answer is the second blank is:  and the correct answer is the second blank is presentation is not correct, the correct answer is:  the correct answer is the second blank is:  and the correct answer is:  and the correct answer is the second blank is:  presentation is not correct, the second blank is actually:  and the correct answer is:  the second blank is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is:  the correct answer is the second one is:  and the correct answer is the second blank is:  and the correct answer is the second one is:  and the correct answer is the second blank is:",
+            "options": []
+        }
+    ],
+    "docker.pdf": [
+        {
+            "type": "Q&A",
+            "content": "What is the purpose of using \"old\" tools in the first half of the class?",
+            "answer": "To lay a foundation on which more advanced tools can be built.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Docker containers are a type of Virtual Machine (VM).",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The command to list all running Docker containers is _______.",
+            "answer": "docker ps",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the primary reason for using melnibone as an SSH \"gateway\" service?",
+            "answer": "B) To utilize WPI IT's security expertise",
+            "options": [
+                "A) To demonstrate complex networking concepts",
+                "B) To utilize WPI IT's security expertise",
+                "C) To provide a simple connection to the VM",
+                "D) To allow for easy scalability"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the difference between a Docker container and a Virtual Machine (VM)?",
+            "answer": "Docker containers and VM have fundamentally different architectures and benefits.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The port number used for SSH connections is unique for each group.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The command to change the directory to /home is _______.",
+            "answer": "cd /home",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the purpose of using a \"gateway\" machine name like melnibone?",
+            "answer": "B) To add an extra layer of security",
+            "options": [
+                "A) To provide a direct connection to the real hardware",
+                "B) To add an extra layer of security",
+                "C) To allow for easy scalability",
+                "D) To demonstrate complex networking concepts"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the benefit of using Docker containers over VMs?",
+            "answer": "Docker containers provide easy connection to make and have fundamentally different benefits compared to VMs.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The real hardware is directly accessible through the SSH connection.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The command to list the files in the current directory is _______.",
+            "answer": "ls",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the relationship between Docker containers and LXD VM?",
+            "answer": "A) Docker containers run inside LXD VM",
+            "options": [
+                "A) Docker containers run inside LXD VM",
+                "B) LXD VM runs inside Docker containers",
+                "C) Docker containers and LXD VM are unrelated",
+                "D) LXD VM is a type of Docker container"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the course name and number for Machine Learning Development and Operations?",
+            "answer": "DS/CS553 \u2013 Machine Learning Development and Operations (MLOps)",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The midterm is being graded immediately after submission.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The new server for CS3 has _______ CPUs.",
+            "answer": "16",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the consequence of submitting a Case Study late after the first one?",
+            "answer": "B) 20% credit loss",
+            "options": [
+                "A) 10% credit loss",
+                "B) 20% credit loss",
+                "C) 30% credit loss",
+                "D) No credit loss"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "Why did the professor not bother the TAs last week?",
+            "answer": "The professor wanted the TAs to have a break.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The new server for CS3 is dedicated to each group.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The new server for CS3 has _______ GB of memory.",
+            "answer": "64",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the plan for the product while the CEO is away?",
+            "answer": "B) Transition the product to Docker",
+            "options": [
+                "A) Transition to a new CEO",
+                "B) Transition the product to Docker",
+                "C) Keep the product as is",
+                "D) Discontinue the product"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the significance of using Docker?",
+            "answer": "To make the product hardware-independent.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "The old VMs are still available for use.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "The new server for CS3 has _______ TB of disk space.",
+            "answer": "1",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the professor's role in the narrative?",
+            "answer": "A) A humble professor and narrator",
+            "options": [
+                "A) A humble professor and narrator",
+                "B) An evil CEO",
+                "C) A Good MLops manager",
+                "D) A team member"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the primary benefit of using Docker containers over virtual machines (VMs)?",
+            "answer": "Increased performance, with a 27% to 46% improvement after tuning.",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Docker containers and virtual machines are mutually exclusive.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "Docker allowed for savings in ______________________ and disk as well.",
+            "answer": "memory",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the purpose of a Dockerfile?",
+            "answer": "B) To store Docker commands",
+            "options": [
+                "A) To run Docker containers",
+                "B) To store Docker commands",
+                "C) To create a new Docker image",
+                "D) To push Docker images to Docker Hub"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the command to build a Docker image from a Dockerfile in the current directory, and tag it as \"rpaff/cs553_example\"?",
+            "answer": "docker build -t rpaff/cs553_example .",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Docker containers can only run on virtual machines.",
+            "answer": "False",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "To run a Docker container in detached mode, you use the ______________________ option.",
+            "answer": "-d",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the benefit of using Docker Desktop?",
+            "answer": "C) It is the #1 containerization tool for developers",
+            "options": [
+                "A) It is the #2 containerization tool for developers",
+                "B) It is only used for running Docker containers on virtual machines",
+                "C) It is the #1 containerization tool for developers",
+                "D) It is used for creating new Docker images"
+            ]
+        },
+        {
+            "type": "Q&A",
+            "content": "What is the command to run a Docker container and execute a bash shell inside it?",
+            "answer": "docker run -it ubuntu bash",
+            "options": []
+        },
+        {
+            "type": "True/False",
+            "content": "Docker Hub is a container image library that requires an account to use.",
+            "answer": "True",
+            "options": []
+        },
+        {
+            "type": "Fill-in-the-Blank",
+            "content": "To update the package list in a Docker container running Ubuntu, you use the command ______________________.",
+            "answer": "apt update",
+            "options": []
+        },
+        {
+            "type": "Multiple Choice",
+            "content": "What is the purpose of the \"docker push\" command?",
+            "answer": "C) To push a Docker image to Docker Hub",
+            "options": [
+                "A) To run a Docker container",
+                "B) To build a Docker image",
+                "C) To push a Docker image to Docker Hub",
+                "D) To create a new Dockerfile"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcard Generator</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+<style>
+.flashcard-container {
+    perspective: 1000px;
+}
+.flashcard {
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.flashcard.flipped {
+    transform: rotateY(180deg);
+}
+.flashcard-front, .flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flashcard-back {
+    transform: rotateY(180deg);
+}
+.type-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.75rem;
+}
+.navigation-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #CBD5E0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.dot.active {
+    background-color: #4A5568;
+}
+.timer-container {
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background: #e2e8f0;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.timer-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #48bb78;
+    transition: width 0.1s linear;
+}
+.timer-text {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #4A5568;
+    margin-top: 0.5rem;
+}
+</style>
+</head>
+<body class="bg-gray-100 min-h-screen py-8">
+<div class="container mx-auto px-4">
+<h1 class="text-3xl font-bold text-center mb-8">Flashcard Generator</h1>
+
+<!-- Upload Form -->
+<div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-6 mb-8">
+<form id="uploadForm" action="/" method="post" enctype="multipart/form-data" class="space-y-4">
+    <div>
+        <label for="pdf_files" class="block text-sm font-medium text-gray-700 mb-2">Upload PDF files:</label>
+        <input type="file" id="pdf_files" name="pdf_files" multiple required
+               class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
+    </div>
+    <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
+        Generate Flashcards
+    </button>
+</form>
+<div class="mt-4">
+    <div class="timer-container">
+        <div id="timerProgress" class="timer-progress"></div>
+    </div>
+    <p id="timerText" class="timer-text">Generating flashcards...</p>
+</div>
+</div>
+
+<!-- Flashcards Display -->
+<div id="flashcardsSection" class="max-w-2xl mx-auto" style="display: none;">
+<div class="flashcard-container w-full h-96 mb-4">
+    <div class="flashcard w-full h-full">
+        <div class="flashcard-front bg-white rounded-xl shadow-lg p-8 flex flex-col justify-center items-center text-center">
+            <span class="type-badge px-3 py-1 bg-blue-100 text-blue-800 rounded-full"></span>
+            <p class="text-xl question mb-4"></p>
+            <div class="options-container space-y-2"></div>
+        </div>
+        <div class="flashcard-back bg-white rounded-xl shadow-lg p-8 flex flex-col justify-center items-center text-center">
+            <h3 class="text-lg font-semibold mb-4">Answer:</h3>
+            <p class="answer text-xl"></p>
+        </div>
+    </div>
+</div>
+<!-- Navigation -->
+<div class="flex justify-center gap-4 mb-4">
+    <button id="prevCard" class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded-md transition-colors">
+        Previous
+    </button>
+    <button id="nextCard" class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded-md transition-colors">
+        Next
+    </button>
+</div>
+<div class="navigation-dots"></div>
+<!-- Download Button -->
+<div class="text-center mt-8">
+    <a href="/download_flashcards" class="inline-block bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors">
+        Download Flashcards as JSON
+    </a>
+</div>
+</div>
+</div>
+
+<script>
+let currentCardIndex = 0;
+let flashcards = [];
+let startTime, endTime;
+
+// Handle form submission
+document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+
+    // Start the timer
+    startTime = Date.now();
+    document.getElementById('timerText').textContent = 'Generating flashcards...';
+    const timerProgress = document.getElementById('timerProgress');
+    let progressWidth = 0;
+    const interval = setInterval(() => {
+        if (progressWidth >= 100) {
+            clearInterval(interval);
+            return;
+        }
+        progressWidth += 1;
+        timerProgress.style.width = `${progressWidth}%`;
+    }, 50);
+
+    try {
+        const response = await fetch('/', {
+            method: 'POST',
+            body: formData
+        });
+
+        const data = await response.json();
+        flashcards = Object.values(data).flat();
+
+        // Stop the timer
+        clearInterval(interval);
+        endTime = Date.now();
+        const timeTaken = ((endTime - startTime) / 1000).toFixed(2); // in seconds
+        document.getElementById('timerText').textContent = `Flashcards generated in ${timeTaken} seconds!`;
+        timerProgress.style.width = '100%';
+
+        if (flashcards.length > 0) {
+            document.getElementById('flashcardsSection').style.display = 'block';
+            updateCard();
+            updateNavigationDots();
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        alert('An error occurred while generating flashcards.');
+        clearInterval(interval);
+        document.getElementById('timerText').textContent = 'Failed to generate flashcards.';
+        timerProgress.style.width = '0%';
+    }
+});
+
+// Flashcard flip functionality
+document.querySelector('.flashcard').addEventListener('click', function() {
+    this.classList.toggle('flipped');
+});
+
+// Navigation
+document.getElementById('prevCard').addEventListener('click', () => {
+    if (currentCardIndex > 0) {
+        currentCardIndex--;
+        updateCard();
+        updateNavigationDots();
+    }
+});
+
+document.getElementById('nextCard').addEventListener('click', () => {
+    if (currentCardIndex < flashcards.length - 1) {
+        currentCardIndex++;
+        updateCard();
+        updateNavigationDots();
+    }
+});
+
+function updateCard() {
+    const card = flashcards[currentCardIndex];
+    if (!card) return;
+
+    // Reset flip state
+    document.querySelector('.flashcard').classList.remove('flipped');
+
+    // Update type badge
+    document.querySelector('.type-badge').textContent = card.type;
+
+    // Update question
+    document.querySelector('.question').textContent = card.content;
+
+    // Update options if it's a multiple choice question
+    const optionsContainer = document.querySelector('.options-container');
+    optionsContainer.innerHTML = '';
+    if (card.type === 'Multiple Choice' && card.options && card.options.length > 0) {
+        card.options.forEach(option => {
+            const optionElement = document.createElement('div');
+            optionElement.className = 'text-left p-2 hover:bg-gray-100 rounded';
+            optionElement.textContent = option;
+            optionsContainer.appendChild(optionElement);
+        });
+    }
+
+    // Update answer
+    document.querySelector('.answer').textContent = card.answer;
+
+    // Update navigation buttons
+    document.getElementById('prevCard').disabled = currentCardIndex === 0;
+    document.getElementById('nextCard').disabled = currentCardIndex === flashcards.length - 1;
+}
+
+function updateNavigationDots() {
+    const dotsContainer = document.querySelector('.navigation-dots');
+    dotsContainer.innerHTML = '';
+
+    flashcards.forEach((_, index) => {
+        const dot = document.createElement('div');
+        dot.className = `dot ${index === currentCardIndex ? 'active' : ''}`;
+        dot.addEventListener('click', () => {
+            currentCardIndex = index;
+            updateCard();
+            updateNavigationDots();
+        });
+        dotsContainer.appendChild(dot);
+    });
+}
+</script>
+</body>
+</html>

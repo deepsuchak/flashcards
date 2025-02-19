@@ -1,0 +1,11 @@
+- parallelize doc processing - done
+- look into backend
+- tryy different models with different prompts
+- put in debugging msgs in bw runs
+- try megaparse - frustrating (time consuming)
+
+
+
+
+
+-pymupdf then its chunking then we have the groq's prompt
